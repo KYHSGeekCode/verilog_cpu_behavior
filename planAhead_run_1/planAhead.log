@@ -1,0 +1,182 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Thu Jun 17 22:09:47 2021
+# Process ID: 4335
+# Log file: /csehome/gunhee2001/cpu_behavior/planAhead_run_1/planAhead.log
+# Journal file: /csehome/gunhee2001/cpu_behavior/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1904 day(s)
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /csehome/gunhee2001/cpu_behavior/pa.fromNetlist.tcl
+# create_project -name cpu_behavior -dir "/csehome/gunhee2001/cpu_behavior/planAhead_run_1" -part xc3s50antqg144-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "/csehome/gunhee2001/cpu_behavior/cpu.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {/csehome/gunhee2001/cpu_behavior} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "cpu.ucf" [current_fileset -constrset]
+Adding file '/csehome/gunhee2001/cpu_behavior/cpu.ucf' to fileset 'constrs_1'
+# add_files [list {cpu.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s50antqg144-4
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design cpu.ngc ...
+WARNING:NetListWriters:298 - No output is written to cpu.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus Madd__COND_9_Madd_lut<4 : 0> on block
+   cpu is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Madd_pc_add0001_cy<3 : 0> on block cpu
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Maddsub_old_pc_12_addsub0000_lut<7 : 0>
+   on block cpu is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _COND_6<7 : 0> on block cpu is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file cpu.edif ...
+ngc2edif: Total memory usage is 93756 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/cpu_behavior.data/cache/cpu_ngc_d76a2c42.edif]
+Finished Parsing EDIF File [./planAhead_run_1/cpu_behavior.data/cache/cpu_ngc_d76a2c42.edif]
+INFO: [Designutils 20-910] Reading macro library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/hd_int_macros.edn
+Parsing EDIF File [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/hd_int_macros.edn]
+Finished Parsing EDIF File [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/hd_int_macros.edn]
+WARNING: [Netlist 29-43] Netlist 'cpu' is not ideal for floorplanning, since the cellview 'cpu' defined in file 'cpu.ngc' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+Loading clock regions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/xc3s50an/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/xc3s50an/ClockBuffers.xml
+Loading package from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/xc3s50an/tqg144/Package.xml
+Loading io standards from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/xc3s50an/tqg144/SSORules.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/drc.xml
+INFO: [Timing 38-77] Reading timing library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/spartan3a-4.lib.
+INFO: [Timing 38-34] Done reading timing library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/spartan3a-4.lib.
+Parsing UCF File [/csehome/gunhee2001/cpu_behavior/cpu.ucf]
+Finished Parsing UCF File [/csehome/gunhee2001/cpu_behavior/cpu.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 04351d0c
+startgroup
+set_property package_pin P57 [get_ports clk50]
+endgroup
+startgroup
+set_property package_pin P47 [get_ports reset]
+endgroup
+set_property package_pin "" [get_ports [list  {instruction[0]}]]
+startgroup
+set_property package_pin P120 [get_ports {instruction[0]}]
+endgroup
+startgroup
+set_property package_pin P121 [get_ports {instruction[1]}]
+endgroup
+startgroup
+set_property package_pin P124 [get_ports {instruction[2]}]
+endgroup
+startgroup
+set_property package_pin P3 [get_ports {instruction[4]}]
+endgroup
+startgroup
+set_property package_pin P125 [get_ports {instruction[3]}]
+endgroup
+startgroup
+set_property package_pin P126 [get_ports {instruction[4]}]
+endgroup
+startgroup
+set_property package_pin P127 [get_ports {instruction[5]}]
+endgroup
+startgroup
+set_property package_pin P129 [get_ports {instruction[6]}]
+endgroup
+startgroup
+set_property package_pin P130 [get_ports {instruction[7]}]
+endgroup
+startgroup
+set_property package_pin P3 [get_ports {bcd10[0]}]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports {bcd10[1]}]
+endgroup
+startgroup
+set_property package_pin P5 [get_ports {bcd10[2]}]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports {bcd10[3]}]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {bcd10[4]}]
+endgroup
+startgroup
+set_property package_pin P8 [get_ports {bcd10[5]}]
+endgroup
+startgroup
+set_property package_pin P10 [get_ports {bcd10[6]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {bcd1[0]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {bcd1[1]}]
+endgroup
+startgroup
+set_property package_pin P13 [get_ports {bcd1[2]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {bcd1[3]}]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports {bcd1[4]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {bcd1[5]}]
+endgroup
+startgroup
+set_property package_pin P19 [get_ports {bcd1[6]}]
+endgroup
+startgroup
+set_property package_pin P96 [get_ports {address[0]}]
+endgroup
+startgroup
+set_property package_pin P98 [get_ports {address[1]}]
+endgroup
+startgroup
+set_property package_pin P99 [get_ports {address[2]}]
+endgroup
+startgroup
+set_property package_pin P101 [get_ports {address[3]}]
+endgroup
+startgroup
+set_property package_pin P102 [get_ports {address[4]}]
+endgroup
+startgroup
+set_property package_pin P103 [get_ports {address[5]}]
+endgroup
+startgroup
+set_property package_pin P104 [get_ports {address[6]}]
+endgroup
+startgroup
+set_property package_pin P105 [get_ports {address[7]}]
+endgroup
+save_constraints
+exit
+ERROR: [#UNDEF] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See /csehome/gunhee2001/cpu_behavior/planAhead_pid4335.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Jun 17 22:21:45 2021...
+INFO: [Common 17-83] Releasing license: PlanAhead

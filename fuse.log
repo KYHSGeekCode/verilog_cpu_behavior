@@ -1,0 +1,26 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/csehome/gunhee2001/cpu_behavior/Main_test_isim_beh.exe" -prj "/csehome/gunhee2001/cpu_behavior/Main_test_beh.prj" "work.Main_test" "work.glbl" 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "/csehome/gunhee2001/cpu_behavior/Freq.v" into library work
+Analyzing Verilog file "/csehome/gunhee2001/cpu_behavior/bcdto7.v" into library work
+Analyzing Verilog file "/csehome/gunhee2001/cpu_behavior/cpu.v" into library work
+Analyzing Verilog file "/csehome/gunhee2001/cpu_behavior/testcpu.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 82908 KB
+Fuse CPU Usage: 800 ms
+Compiling module Freq
+Compiling module BCDto7
+Compiling module cpu
+Compiling module Main_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 Verilog Units
+Built simulation executable /csehome/gunhee2001/cpu_behavior/Main_test_isim_beh.exe
+Fuse Memory Usage: 1167408 KB
+Fuse CPU Usage: 800 ms
+GCC CPU Usage: 80 ms

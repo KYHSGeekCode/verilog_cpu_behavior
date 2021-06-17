@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/csehome/gunhee2001/cpu_behavior/Main_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Main_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/Main_test/instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction[7:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_test/ReadAddress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ReadAddress[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadAddress[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_test/seg_ten" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">seg_ten[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_ten[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_test/seg_one" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">seg_one[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_one[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_test/MemByte" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MemByte[31:0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">MemByte[31:0,7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_test/clk50" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk50</obj_property>
+      <obj_property name="ObjectShortName">clk50</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_test/uut/register" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">register[3:0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">register[3:0,7:0]</obj_property>
+      <wvobject fp_name="/Main_test/uut/register[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,7:0]</obj_property>
+         <obj_property name="ObjectShortName">register[3,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/register[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,7:0]</obj_property>
+         <obj_property name="ObjectShortName">register[2,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/register[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,7:0]</obj_property>
+         <obj_property name="ObjectShortName">register[1,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/register[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,7:0]</obj_property>
+         <obj_property name="ObjectShortName">register[0,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Main_test/uut/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[31:0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0,7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/Main_test/uut/data[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[31,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[30,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[29,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[28,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[27,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[26,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[25,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[24,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[23,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[22,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[21,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[20,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[19,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[18,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[17,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[16,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[15,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[14,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[13,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[12,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[11,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[10,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[9,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[8,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[7,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[6,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[5,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[4,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[3,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[2,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[1,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Main_test/uut/data[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[0,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Main_test/uut/bcd1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bcd1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">bcd1[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_test/uut/bcd10" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bcd10[6:0]</obj_property>
+      <obj_property name="ObjectShortName">bcd10[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_test/uut/writereg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">writereg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">writereg[7:0]</obj_property>
+   </wvobject>
+</wave_config>

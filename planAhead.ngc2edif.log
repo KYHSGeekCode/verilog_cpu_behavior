@@ -1,0 +1,20 @@
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design cpu.ngc ...
+WARNING:NetListWriters:298 - No output is written to cpu.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus Madd__COND_9_Madd_lut<4 : 0> on block
+   cpu is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Madd_pc_add0001_cy<3 : 0> on block cpu
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Maddsub_old_pc_12_addsub0000_lut<7 : 0>
+   on block cpu is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _COND_6<7 : 0> on block cpu is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file cpu.edif ...
+ngc2edif: Total memory usage is 93756 kilobytes
+

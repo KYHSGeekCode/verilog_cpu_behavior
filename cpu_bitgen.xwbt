@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/csehome/gunhee2001/cpu_behavior/cpu.ncd
+OUTFILE=/csehome/gunhee2001/cpu_behavior/cpu.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50an-4tqg144
+WORKINGDIR=/csehome/gunhee2001/cpu_behavior
+LICENSE=WebPack
+USER_INFO=211016637_0_0_814
